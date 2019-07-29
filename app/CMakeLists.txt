@@ -42,3 +42,7 @@ target_link_libraries( # Specifies the target library.
         # Links the target library to the log library
         # included in the NDK.
         ${log-lib})
+
+# Display a message to the user.
+# message("A:\n" ${log-lib} "\nB:\n" ${native-lib})
+# message(FATAL_ERROR "message to display")
